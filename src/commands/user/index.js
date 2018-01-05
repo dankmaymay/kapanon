@@ -86,8 +86,8 @@ export default function userCommands (user, evt, reply) {
     case 'source':
     case 'version':
       const tag = 'v' + version.split('-').shift()
-      reply(`secretlounge v${version} - https://github.com/6697/secretlounge`)
-      reply(`changelog: https://github.com/6697/secretlounge/releases/tag/${tag}`)
+      reply(`kapanon v${version} - https://github.com/dankmaymay/kapanon\n\nbased on <i>6697/secretlounge</i>`)
+      //reply(`changelog: https://github.com/6697/secretlounge/releases/tag/${tag}`)
       break
 
     case 'changelog':
